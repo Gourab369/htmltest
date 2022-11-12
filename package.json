@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.1.0",
+    "mochawesome": "^7.1.3",
+    "nodemon": "^2.0.20",
+    "selenium-webdriver": "^4.6.0"
+  },
+  "name": "selenium_stuff",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --no-timeouts --parallel --reporter mochawesome --require mochawesome/register"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
