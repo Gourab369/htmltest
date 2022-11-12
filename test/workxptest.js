@@ -23,9 +23,7 @@ describe("Input Text Box: Work Experience", function(){
         await driver.findElement(By.id("email")).sendKeys("asd@gasd.com", Key.RETURN);
         await driver.findElement(By.id("phone")).sendKeys(9876878787, Key.RETURN);
         await driver.findElement(By.id("education")).sendKeys("10", Key.RETURN);
-        await driver.findElement(By.id("workxp")).sendKeys(0, Key.RETURN).setTimeout(() => {
-            
-        }, 3000);
+        await driver.findElement(By.id("workxp")).sendKeys(0, Key.RETURN);
         await driver.findElement(By.id("submitbutt")).click();
 
         //assert
